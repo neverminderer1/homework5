@@ -1,6 +1,6 @@
 "use strict";
 
-const home      = require('./home5');
+const home      = require('./home');
 const assert    = require('assert');
 
 const brackets                      = home.brackets,

@@ -1,3 +1,5 @@
+// scope 0 (global);
+
 `1.Дан неупорядоченный массив целых чисел. Написать функцию, которая находит максимальное произведение, 
 полученное путем умножения трех чисел в массиве.
 Способы обработки пустых массивов и массивов с количеством элементов меньше трех - на ваше усмотрение.
@@ -24,7 +26,7 @@ module.exports.maxThreeNumbersComposition = function (arr) {
 второй массив = [1, 2, 0, 2]
 Результат = [2, 1]`;
 
-module.exports.identical = function (one, two) {
+module.exports.identical = function (one, two) { // scope 1
     if(!Array.isArray(one) || !Array.isArray(two)) {
         return null;
     }
