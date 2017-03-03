@@ -1,0 +1,14 @@
+{
+  "name": "lection3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha home.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "0.0.1"
+  }
+}
